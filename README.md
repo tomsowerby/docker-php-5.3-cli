@@ -11,4 +11,13 @@ The rest of this repo is borrowed from the [Official PHP image](https://github.c
 
 Usage should be the same as the [Official PHP cli](https://hub.docker.com/_/php/)
 
+Check the version:
+
+	docker run -it --rm tomsowerby/php-5.3:cli php -v
+
+Run a script:
+
+	docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp tomsowerby/php-5.3:cli php your-script.php
+
+
 Please report bugs for this container to the [GitHub issue](https://github.com/tomsowerby/docker-php-5.3-cli/issues) page.
