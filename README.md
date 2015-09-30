@@ -1,6 +1,8 @@
 # docker-php-5.3-cli
 Build of 5.3 in the same style as the official PHP repository
 
+Available on [Docker Hub](https://hub.docker.com/r/tomsowerby/php-5.3/)
+
 We have some legacy projects that need to be build in an old PHP 5.3 environment.
 
 This docker image is intended to allow composer and other build tools to be run on it to emulate dependancies on the production environment.
